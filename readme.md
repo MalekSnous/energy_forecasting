@@ -15,8 +15,9 @@ This project demonstrates a complete end-to-end machine learning pipeline for fo
 This type of project reflects common challenges in smart-grid management, renewable energy planning, or infrastructure optimization, making it highly relevant for Data Scientist / ML Engineer roles.
 
 **🎯 Project Goals**
-_For Recruiters
-_
+
+_For Recruiters_
+
 Demonstrates the ability to build a full ML workflow (data → model → evaluation → dashboard). Shows expertise in forecasting, feature engineering, and time-series modeling. Exposes clean coding practices, modularity, and deployable tools. Simulates a real-world business case: anticipate energy demand to avoid overloads and reduce costs.
 
 _For Developers_
