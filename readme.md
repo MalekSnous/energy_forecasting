@@ -36,7 +36,7 @@ venv\Scripts\activate       # windows
 pip install -r requirements.txt
 ```
 
-**📊 2 Generate Dataset**
+**📊 2. Generate Dataset**
 
  
  Generate synthetic energy data (daily patterns, weekends, noise, trend):**
