@@ -76,7 +76,12 @@ Dashboard features
 
 The model builds on:: lag features, rolling statistics, time-based encodings (hour, day-of-week, seasonality), Random Forest Regression (robust baseline), 
 
-Future improvements:
+
+
+
+
+
+_**Future improvements:**_
 
 Neural Network deep learning
 Prophet for seasonality-rich data
