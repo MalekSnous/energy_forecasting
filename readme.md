@@ -26,8 +26,9 @@ Provides a reproducible and easy, modular ML pipeline. Includes CLI tools, model
 
 -----------------------------------------------------------------------------------
 
-**🔧 Installation
-1. Create and activate a virtual environment and install dependencies:**
+**🔧 1. Installation**
+
+ Create and activate a virtual environment and install dependencies:**
 ```bash
 python -m venv venv
 source venv/bin/activate    # mac/linux
@@ -35,8 +36,10 @@ venv\Scripts\activate       # windows
 pip install -r requirements.txt
 ```
 
-**📊 Generate Dataset
-2. Generate synthetic energy data (daily patterns, weekends, noise, trend):**
+**📊 2 Generate Dataset**
+
+ 
+ Generate synthetic energy data (daily patterns, weekends, noise, trend):**
 
 ```bash
 python scripts/generate_synthetic_data.py --out data/energy.csv --days 
@@ -44,15 +47,16 @@ python scripts/generate_synthetic_data.py --out data/energy.csv --days
 Or replace data/energy.csv with real energy consumption data from smart meters or public datasets.
 
 
-**🤖 Train Model & Evaluate
-3. Training .....**
+**🤖 3. Train Model & Evaluate**
 
 ```bash
 python src/train.py --data data/energy.csv --model-out models/rf_model.pkl
 ```
 
-**📈 Dashboard (Streamlit)
-4. Run dashboard:**
+**📈 4. Dashboard (Streamlit)**
+
+
+Run dashboard
 
 ```bash
 streamlit run app/streamlit_app.py -- --data data/energy.csv --model models/rf_model.pkl
